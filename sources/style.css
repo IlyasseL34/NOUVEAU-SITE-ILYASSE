@@ -1,32 +1,40 @@
-body{
+body {
     background-color: #131516;
 }
-p{
+
+p {
     color: #d8d4cf;
 }
-h1{
+
+h1 {
     color: #d8d4cf
-    
 }
-h2{
+
+h2 {
     color: #d8d4cf
-    
 }
-.boite{
+
+.boite {
     border: 4px solid white;
 
 }
-.boite h2{
-    font-family: "arial", Times, serif;
 
-}
 
 img {
     max-width: 100%;
     height: auto;
     width: auto;
 }
+
+
+/*définir la police*/
 @font-face {
-    font-family: 'Mister October';
-    src: url("sources/Mister October.otf") ;
+    font-family: 'MisterOctober';
+    src: url("Mister October.otf");
+}
+
+/*Dire à l'objet de classe boite d'utiliser la police*/
+.boite h2 {
+    font-family: "MisterOctober";
+
 }
