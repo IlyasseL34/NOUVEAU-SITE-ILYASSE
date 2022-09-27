@@ -26,3 +26,7 @@ img {
     height: auto;
     width: auto;
 }
+@font-face {
+    font-family: 'Mister October';
+    src: url("sources/Mister October.otf") ;
+}
