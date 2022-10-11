@@ -65,6 +65,7 @@ body {
     .btn-area {
         display: block;
     }
+
     .nav-area ul {
         position: fixed;
         width: 100%;
@@ -75,21 +76,26 @@ body {
         text-align: center;
         transition: all 0.5s;
     }
+
     .nav-area ul li {
         display: block;
         margin: 0;
         line-height: 30px;
         padding: 25px 0;
     }
+
     .nav-area ul li a {
         font-size: 30px;
     }
+
     .nav-area ul li:hover {
         background: #262626;
     }
+
     .nav-area ul li a:hover {
         background: none;
     }
+
     #box:checked~ul {
         left: 0;
     }
@@ -127,6 +133,15 @@ img {
 
 
 /*Dire à l'objet de classe boite d'utiliser la police*/
+
+
+#TitleBase {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+
+}
 
 .boite h2 {
     font-family: "MisterOctober";
